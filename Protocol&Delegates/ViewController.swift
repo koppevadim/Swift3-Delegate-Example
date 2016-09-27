@@ -8,11 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, DataSendDelegate {
+    
+    @IBOutlet weak var receivingTextField: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func userDidEnterData(data: String) {
+        receivingTextField.text = data
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showSendingVC" {
+            let delegateVC: DelegateViewController = segue.destination as! DelegateViewController
+            delegateVC.delegate = self
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -12,6 +12,7 @@
 		BD9096AD1D9AD62500EEEEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9096AB1D9AD62500EEEEDB /* Main.storyboard */; };
 		BD9096AF1D9AD62500EEEEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9096AE1D9AD62500EEEEDB /* Assets.xcassets */; };
 		BD9096B21D9AD62500EEEEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9096B01D9AD62500EEEEDB /* LaunchScreen.storyboard */; };
+		BD9096BA1D9AD6ED00EEEEDB /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9096B91D9AD6ED00EEEEDB /* DelegateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BD9096AE1D9AD62500EEEEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD9096B11D9AD62500EEEEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD9096B31D9AD62500EEEEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9096B91D9AD6ED00EEEEDB /* DelegateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BD9096A71D9AD62500EEEEDB /* AppDelegate.swift */,
 				BD9096A91D9AD62500EEEEDB /* ViewController.swift */,
+				BD9096B91D9AD6ED00EEEEDB /* DelegateViewController.swift */,
 				BD9096AB1D9AD62500EEEEDB /* Main.storyboard */,
 				BD9096AE1D9AD62500EEEEDB /* Assets.xcassets */,
 				BD9096B01D9AD62500EEEEDB /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				BD9096AA1D9AD62500EEEEDB /* ViewController.swift in Sources */,
 				BD9096A81D9AD62500EEEEDB /* AppDelegate.swift in Sources */,
+				BD9096BA1D9AD6ED00EEEEDB /* DelegateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
